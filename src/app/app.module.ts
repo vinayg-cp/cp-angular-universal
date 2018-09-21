@@ -10,7 +10,7 @@ import { DemoComponent } from './demo/demo.component';
     DemoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule.withServerTransition({ appId: 'serverApp' })
   ],
   providers: [],
   bootstrap: [AppComponent]
