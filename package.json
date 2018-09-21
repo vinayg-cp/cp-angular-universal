@@ -7,6 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+    "docs": "hads ./docs -o",
     "e2e": "ng e2e",
     "build:ssr": "npm run build:client-and-server-bundles && npm run webpack:server",
     "serve:ssr": "node dist/server.js",
@@ -29,6 +30,7 @@
     "@nguniversal/module-map-ngfactory-loader": "^6.0.0",
     "angulartics2": "^6.0.0",
     "core-js": "^2.5.4",
+    "hads": "^1.7.0",
     "rxjs": "~6.2.0",
     "zone.js": "~0.8.26"
   },
